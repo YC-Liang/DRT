@@ -8,7 +8,6 @@ import os
 import math
 
 dir_name = os.path.dirname(os.path.abspath(__file__))
-print(dir_name)
 
 ### loading Rain800 training dataset
 class Rain800TrainData(Dataset):
