@@ -1,4 +1,4 @@
-# DRT: A Light Weight Deraining Recursive Transformer
+# DRT: A Lightweight Single Image Deraining Recursive Transformer
 By [Yuanchu Liang](yuanchu.liang@anu.edu.au), [Saeed Anwar](saeed.anwar@anu.edu.au), [Yang Liu](yang.liu3@anu.edu.au)
 
 College of Engineering and Computer Science, The Australian National University
