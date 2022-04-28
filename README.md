@@ -19,7 +19,21 @@ The paper has been accepeted by [NTIRE2022](https://data.vision.ee.ethz.ch/cvl/n
 *Codes will be polished and running instructions will be added soon.*
 
 ### Results
-*Both quantitative and qulitative results will be added here soon.*
+**Quantitative Results**
+![PSNR and SSIM Results on Three Data Sets](https://github.com/YC-Liang/DRT/blob/main/Images/PSNR_and_SSIM.png)
+
+**Rain100L**
+![Rain100L](https://github.com/YC-Liang/DRT/blob/main/Images/Rain100L.png)
+
+**Rain100H**
+![Rain100H](https://github.com/YC-Liang/DRT/blob/main/Images/Rain100H.png)
+
+**Test100**
+![Test100](https://github.com/YC-Liang/DRT/blob/main/Images/Test100.png)
+
+**Realistic**  
+![Realistic](https://github.com/YC-Liang/DRT/blob/main/Images/Real.png)
+
 
 ### Citations
 *CVPR citation to be added*
