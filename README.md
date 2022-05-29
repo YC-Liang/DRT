@@ -1,5 +1,5 @@
 # DRT: A Lightweight Single Image Deraining Recursive Transformer
-By [Yuanchu Liang](yuanchu.liang@anu.edu.au), [Saeed Anwar](saeed.anwar@anu.edu.au), [Yang Liu](yang.liu3@anu.edu.au)
+By Yuanchu Liang, Saeed Anwar, Yang Liu
 
 College of Engineering and Computer Science, The Australian National University
 
@@ -71,10 +71,13 @@ The `Data` folder should looks something like this:</br>
         |-- ...
 ```
 
-
-
-
 **Running Instructions**</br>
+The core content is written in the Jupyter Notebook `DRT.ipynb`.</br>
+To evaluate, change the evaluate folder directory in the `Load Data` section and set the last line of the notebook to </br>
+* `run(train_net = False, loadCkp = True, loadBest = True, new_dataset = False)` </br>
+
+To train from scratch, change the training directory in the `Load Data` section and set the last line of the notebook to
+* `run(train_net = True, loadCkp = False, loadBest = False, new_dataset = False)`
 
 ### Results
 **Quantitative Results**
