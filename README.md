@@ -1,13 +1,12 @@
 # DRT: A Lightweight Single Image Deraining Recursive Transformer
-By Yuanchu Liang, Saeed Anwar, Yang Liu
-
+By Yuanchu Liang, Saeed Anwar, Yang Liu </br>
 College of Engineering and Computer Science, The Australian National University
-
 </br>
+
+---
 
 This repo is the official implementation of DRT: A Lightweight Single Image Deraining Recursive Transformer ([arxiv](https://arxiv.org/abs/2204.11385)).  
 The paper has been accepeted by [NTIRE2022](https://data.vision.ee.ethz.ch/cvl/ntire22/) workshop of [CVPR2022](https://cvpr2022.thecvf.com/).
-
 </br>
 
 ### Abstract
