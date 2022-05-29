@@ -16,7 +16,17 @@ The paper has been accepeted by [NTIRE2022](https://data.vision.ee.ethz.ch/cvl/n
 ![DRT Network Architecture](https://github.com/YC-Liang/DRT/blob/main/Images/Network.png)
 
 ### Running
-*Codes will be polished and running instructions will be added soon.*
+**Installations**</br>
+*Note the script is only tested on Ubuntu 20.04*.
+* Download `Python3`, script was ran by `Python 3.7.11`
+* Install `cuda >= 10.1` with `cudnn >= 7`.
+* Install `PyTorch >= 1.7.1` with `torchvision >= 0.8.2`
+* Install `timm >= 0.3.2`
+* Install `torch-summary >= 0.8.2`
+
+**Data Sets**</br>
+
+**Running Instructions**</br>
 
 ### Results
 **Quantitative Results**
