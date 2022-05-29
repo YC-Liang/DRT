@@ -25,6 +25,54 @@ The paper has been accepeted by [NTIRE2022](https://data.vision.ee.ethz.ch/cvl/n
 * Install `torch-summary >= 0.8.2`
 
 **Data Sets**</br>
+*Training*: download the following data sets and unzip into the `Data` folder </br>
+* `Rain800`: [click here](https://github.com/hezhangsprinter/DID-MDN).
+* `Rain100L-Train`: [click here](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)
+* `Rain100H-Train`: [click here](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)
+* `Snow100K-training`: [click here](https://sites.google.com/view/yunfuliu/desnownet)
+
+*Testing*: inside the `Data` folder, run `mkdir Test-HiNet`. 
+* Unzip `Rain800`, `Rain100L` and `Rain100H` into the `Test-HiNet` folder: [click here](https://github.com/megvii-model/HINet)
+* Unzip `Snow100K-testset` into the `Data` folder: [click here](https://sites.google.com/view/yunfuliu/desnownet)
+
+The `Data` folder should looks something like this:</br>
+```
+|Data
+|--Rain800
+    |-- training
+        |-- ...
+    |-- ...
+|--Rain100L-Train
+    |-- rain
+        |-- ...
+    |-- norain
+        |-- ...
+|--Rain100H-Train
+    |-- rain
+        |-- ...
+    |-- norain
+        |-- ...
+|--Snow100K-training
+    |-- all
+        |...
+|--Test-HiNet
+    |-- Rain100H
+        |-- ...
+    |-- Rain100L
+        |-- ...
+    |-- Test100
+        |-- ...
+|--Snow100K-testset
+    |-- Snow100K-L
+        |-- ...
+    |-- Snow100K-M
+        |-- ...
+    |-- Snow100K-S
+        |-- ...
+```
+
+
+
 
 **Running Instructions**</br>
 
