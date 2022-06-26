@@ -96,7 +96,16 @@ To train from scratch, change the training directory in the `Load Data` section 
 
 
 ### Citations
-*CVPR citation to be added*
+```
+@InProceedings{Liang_2022_CVPR,
+    author    = {Liang, Yuanchu and Anwar, Saeed and Liu, Yang},
+    title     = {DRT: A Lightweight Single Image Deraining Recursive Transformer},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2022},
+    pages     = {589-598}
+}
+```
 ```
 @misc{https://doi.org/10.48550/arxiv.2204.11385,
   doi = {10.48550/ARXIV.2204.11385},
