@@ -27,7 +27,7 @@ The paper has been accepeted by [NTIRE2022](https://data.vision.ee.ethz.ch/cvl/n
 
 **Data Sets**</br>
 *Training*: download the following data sets and unzip into the `Data` folder </br>
-* `Rain800`: [click here](https://github.com/hezhangsprinter/DID-MDN).
+* `Rain800`: [click here](https://github.com/hezhangsprinter/ID-CGAN).
 * `Rain100L-Train`: [click here](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)
 * `Rain100H-Train`: [click here](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)
 * `Snow100K-training`: [click here](https://sites.google.com/view/yunfuliu/desnownet)
